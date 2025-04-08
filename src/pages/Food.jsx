@@ -26,7 +26,9 @@ const Food = () => {
                 <img className="rounded-full w-10" src={assets.avt} alt="" />
                 <h1>Võ Thái Duy</h1>
               </div>
+              <div onClick={() => alert("Bookmark")}>
               <BookmarkBorderOutlinedIcon sx={{ fontSize: 40 }} />
+              </div>
             </div>
             <div className="mt-5">
               <table className="overflow-x-auto min-w-full table-fixed text-sm ">

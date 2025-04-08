@@ -13,6 +13,7 @@ import loupe from "../assets/loupe.png";
 import avt from "../assets/avt.jpg";
 import logo_white from "../assets/logo_white.png";
 import background_header from "../assets/background_header.jpg";
+import image from "../assets/image.png";
 
 export const assets = {
   logo,
@@ -30,74 +31,75 @@ export const assets = {
   avt,
   logo_white,
   background_header,
+  image,
 };
 
 export const foods = [
   {
     _id: 1,
-    name: "Vegan Salad",
+    name: "Thịt Nướng",
     image: food1,
     time: "15 min",
   },
   {
     _id: 2,
-    name: "Vegan Salad",
+    name: "Gà Nướng",
     image: food2,
     time: "15 min",
   },
 
   {
     _id: 3,
-    name: "Vegan Salad",
+    name: "Mì Giòn Xào Hải Sản",
     image: food3,
     time: "15 min",
   },
 
   {
     _id: 4,
-    name: "Vegan Salad",
+    name: "Khô Cá Lóc Nướng",
     image: food4,
     time: "15 min",
   },
 
   {
     _id: 5,
-    name: "Vegan Salad",
+    name: "Mì Xá Xíu",
     image: food5,
     time: "15 min",
   },
 
   {
     _id: 6,
-    name: "Vegan Salad",
+    name: "Cơm Gia Đình",
     image: food6,
     time: "15 min",
   },
 
   {
     _id: 7,
-    name: "Vegan Salad",
+    name: "Xà Bần",
     image: food7,
     time: "15 min",
   },
 
   {
     _id: 8,
-    name: "Vegan Salad",
+    name: "Cơm Gà Nướng",
     image: food8,
     time: "15 min",
   },
 
   {
     _id: 9,
-    name: "Vegan Salad",
+    name: "Hamburger Bò",
     image: food9,
     time: "15 min",
   },
 
   {
     _id: 10,
-    name: "Vegan Salad",
+    name: "Gà Nướng Ngũ Vị",
     image: food10,
     time: "15 min",
   },

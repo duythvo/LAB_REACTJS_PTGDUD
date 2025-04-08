@@ -6,7 +6,6 @@ import { assets } from "../assets/assets";
 const WelcomeModal = () => {
   const [showModal, setShowModal] = useState(true);
 
-  // Ẩn modal khi reload lại trang
   useEffect(() => {
     if (sessionStorage.getItem("modalShown")) {
       setShowModal(false);

@@ -12,6 +12,8 @@ import AboutUs from "./pages/AboutUs";
 import WelcomeModal from "./components/WelcomeModal";
 import Food from "./pages/Food";
 import Subcribe from "./pages/Subcribe";
+import SearchInfo from "./pages/SearchInfo";
+import YourRecipsBox from "./pages/YourRecipsBox";
 
 const App = () => {
   return (
@@ -26,7 +28,9 @@ const App = () => {
         <Route path="/occasions" element={<Occasions />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/subscribe" element={<Subcribe />} />
-        <Route path="/food/:foodId" element={<Food/>}/>
+        <Route path="/food/:foodId" element={<Food />} />
+        <Route path="/search" element={<SearchInfo />} />
+        <Route path ="/your-recips" element={<YourRecipsBox/>} />
       </Routes>
       <Footer />
       <WelcomeModal />

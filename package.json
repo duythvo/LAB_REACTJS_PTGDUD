@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@coreui/coreui": "^5.2.0",
+    "@coreui/react": "^5.5.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.4.5",
@@ -20,9 +22,12 @@
     "frontend": "file:",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-range": "^1.10.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^7.1.5",
     "react-toastify": "^11.0.3",
+    "rsuite": "^5.78.0",
     "sass": "^1.85.0",
     "tailwindcss": "^4.0.8"
   },
